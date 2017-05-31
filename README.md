@@ -1,0 +1,3 @@
+# Automation_UI_Android_APP
+android app ui automation  based on appium 
+鉴于不少自动化测试人员学习自动化时一般都是基于appium开发，但是这方面的样例又不多或者比较零散，对于入门人员来说要花费大量时间去搜索资料，这边抽空编写一些基础自动化用例供参考学习
