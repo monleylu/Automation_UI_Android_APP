@@ -6,7 +6,6 @@ import com.demo.pageinterface.PageLoadModule;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import org.openqa.selenium.By;
-import sun.nio.cs.ext.EUC_CN;
 
 /**
  * 首页

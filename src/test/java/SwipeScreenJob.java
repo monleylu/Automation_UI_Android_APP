@@ -1,8 +1,5 @@
 import com.demo.common.APPUtil;
 import com.demo.common.ElementUtil;
-import com.demo.pageinterface.APPToolBar;
-import com.demo.pageview.IndexPage;
-import com.demo.pageview.SearchPage;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.remote.AndroidMobileCapabilityType;

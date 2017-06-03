@@ -1,12 +1,9 @@
 package com.demo.job;
 
-import com.demo.common.ElementUtil;
 import com.demo.pageview.IndexPage;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
-import org.openqa.selenium.By;
 
-import javax.net.ssl.SSLContext;
 import java.util.Random;
 
 /**
@@ -41,9 +38,6 @@ public class ReadNews {
             System.out.println("new title is :" + newTitle);
 
             indexPage.readNew(newToRead);
-
-            String a =indexPage.getDriver().getContext();
-            String b = indexPage.getDriver().getPageSource();
 
             return  true;
         }catch (Exception e){

@@ -6,10 +6,7 @@ import io.appium.java_client.remote.MobilePlatform;
 import org.junit.*;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
-import javax.net.ssl.SSLContext;
 import java.net.URL;
-
-import static org.junit.Assert.assertTrue;
 
 /**
  * 安装以及卸载app，如果APP已安装，先卸载然后再安装，这里也测试了运行程序之前，如果没有安装APP，两种DesiredCapabilities设置程序的响应；
@@ -58,7 +55,7 @@ public class ReinstallAPP {
         String fullApkPath=pathRoot+ "/src/main/resources/appsources/" +apkPrefixName + apkVersion +".apk";
 
         //appium ip address and port
-        String appiumIP = "127.0.0.1";
+        String appiumIP = "172.31.3.188";
         String appiumPort = "4723";
 
         //contact commom url to send command
@@ -132,11 +129,11 @@ public class ReinstallAPP {
             System.out.println("APP already install,so uninstall first");
             driver.removeApp(appPackageToOpen);
             driver.installApp("/Users/mac/IdeaProjects/Automation_UI_Android_APP/src/main/resources/appsources/jinritoutiao_v6.1.7.apk");
-            driver.launchApp();
+            driver.launchApp();//becarefor ,now app version is v6.1.7
         }else{
             System.out.println("APP has not yet install");
             driver.installApp("/Users/mac/IdeaProjects/Automation_UI_Android_APP/src/main/resources/appsources/jinritoutiao_v6.1.7.apk");
-            driver.launchApp(); //becarefor ,this action will uninstall apk first ,and then install apk provide in desiredCapabilities
+            driver.launchApp(); //becarefor ,now app version is v6.1.7
         }
 
 
