@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. -->
+<project basedir="." default="build" name="Appium_android">
+	<property environment="env"/>
+	<property name="ECLIPSE_HOME" value="D:/Personal/Softwares/DevelopTools/java/eclipse-jee-luna-SR1-win32-x86_64/eclipse/"/>
+	<property name="junit.output.dir" value="xmlResultOfJunit"/>
+	<property name="junit.output.htmldir" value="htmlResultOfJunit"/>
+	<property name="debuglevel" value="source,lines,vars"/>
+	<property name="target" value="1.8"/>
+	<property name="source" value="1.8"/>
+	<property name="lib.dir" value="lib"/>
+
+	<path id="Appium_android.classpath">
+		<pathelement location="bin"/>
+		<fileset dir="${lib.dir}">
+			<include name="*.jar"/>
+		</fileset>
+	</path>
+	<target name="init">
+		<mkdir dir="bin"/>
+		<copy includeemptydirs="false" todir="bin">
+			<fileset dir="src">
+				<exclude name="**/*.launch"/>
+				<exclude name="**/*.java"/>
+			</fileset>
+		</copy>
+		<copy includeemptydirs="false" todir="bin">
+			<fileset dir="Junit">
+				<exclude name="**/*.launch"/>
+				<exclude name="**/*.java"/>
+			</fileset>
+		</copy>
+		<copy includeemptydirs="false" todir="bin">
+			<fileset dir="TestCase">
+				<exclude name="**/*.launch"/>
+				<exclude name="**/*.java"/>
+			</fileset>
+		</copy>
+	</target>
+	<target name="clean">
+		<delete dir="bin"/>
+	</target>
+	<target depends="clean" name="cleanall"/>
+	<target depends="build-subprojects,build-project" name="build"/>
+	<target name="build-subprojects"/>
+	<target depends="init" name="build-project">
+		<echo message="${ant.project.name}: ${ant.file}"/>
+		<javac debug="true" debuglevel="${debuglevel}" destdir="bin" includeantruntime="false" source="${source}" target="${target}">
+			<compilerarg line="-encoding UTF-8 "/> 
+			<src path="src"/>
+			<src path="Junit"/>
+			<src path="TestCase"/>
+			<classpath refid="Appium_android.classpath"/>
+		</javac>
+	</target>
+	<target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+	<target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
+		<copy todir="${ant.library.dir}">
+			<fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+		</copy>
+		<unzip dest="${ant.library.dir}">
+			<patternset includes="jdtCompilerAdapter.jar"/>
+			<fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+		</unzip>
+	</target>
+	<target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
+		<property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
+		<antcall target="build"/>
+	</target>
+	<target name="DiySampleOrderTest">
+		<mkdir dir="${junit.output.dir}"/>
+		<junit fork="yes" printsummary="withOutAndErr">
+			<jvmarg value="-Dfile.encoding=UTF-8"/>
+			<formatter type="xml"/>
+			<test name="com.monleylu.olbb.junit.diy.DiySampleOrderTest" todir="${junit.output.dir}"/>
+			<classpath refid="Appium_android.classpath"/>
+		</junit>
+	</target>
+	<target name="DriveSampleOrderTest">
+		<mkdir dir="${junit.output.dir}"/>
+		<junit fork="yes" printsummary="withOutAndErr">
+			<jvmarg value="-Dfile.encoding=UTF-8"/>
+			<formatter type="xml"/>
+			<test name="com.test.monlylu.olbb.sample.drivetours.DriveSampleOrderTest" todir="${junit.output.dir}"/>
+			<classpath refid="Appium_android.classpath"/>
+		</junit>
+	</target>
+	<target name="RunAll">
+		<mkdir dir="${junit.output.dir}"/>
+		<junit fork="yes" printsummary="withOutAndErr">
+			<jvmarg value="-Dfile.encoding=UTF-8"/>
+			<formatter type="xml"/>
+			<test name="com.test.run.RunAll" todir="${junit.output.dir}"/>
+			<classpath refid="Appium_android.classpath"/>
+		</junit>
+	</target>
+	<target name="junitreport">
+		<echo message="根据xml生产html报告 "/>
+		<mkdir dir="${junit.output.htmldir}"/>
+		<junitreport todir="${junit.output.htmldir}">
+			<fileset dir="${junit.output.dir}">
+				<include name="TEST-*.xml"/>
+			</fileset>
+			<report format="frames" todir="${junit.output.htmldir}"/>
+		</junitreport>
+	</target>
+
+	<target name="moveuserdefineinformation">
+		<echo message="复制执行数据、日志、截图、结果集到html报告目录" />
+		<copy  todir="${junit.output.htmldir}/initdata">
+			<fileset dir="initdata"/>
+		</copy>
+		<copy  todir="${junit.output.htmldir}/log">
+			<fileset dir="log"/>
+		</copy>
+		<copy todir="${junit.output.htmldir}/screenshot">
+			<fileset dir="screenshot"/>
+		</copy>
+		<copy todir="${junit.output.htmldir}/results">
+			<fileset dir="results"/>
+		</copy>
+
+	</target>
+
+	<target name="ZipResult">
+		<echo message="打包测试日志、结果等信息，用于发送邮件,仅支持Linux，如果是window等平台" />
+		<exec   executable="/bin/sh">
+			<arg value="-c" />
+			<arg value="zip -r htmlResultOfJunit_Android_APP.zip htmlResultOfJunit/" />
+		</exec>
+	</target>
+
+	<!-- 生成所有测试用例的测试报告 -->
+	<target depends="build,RunAll,junitreport,moveuserdefineinformation,ZipResult" name="RunAllTestCaseWithReport" >
+		<echo message="执行所有测试用例并生成测试报告 "/>
+	</target>
+</project>

@@ -1,0 +1,1 @@
+{"orderID":"","testUnit":{"testCase":{"ID":5,"testCaseName":"testresult","testCaseDescription":"生产环境"},"productBookInformation":{"HostUrl":"m.monlylu.com","ProductID":"210529703","AdultNum":2,"ChildNum":2,"ChildFreedNum":0,"BuyDate":"2016-09-22","productType":1,"productTypeName":"跟团游","productMode":7,"productModeName":"机票+地接"}},"success":false,"msg":";下单流程出现异常，具体错误请查看日志"}

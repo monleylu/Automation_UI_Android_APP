@@ -1,0 +1,461 @@
+2017-07-10 01:03:58 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:104]  - 开始参数化 com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest
+2017-07-10 01:03:58 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:140]  - cookieFlag：cookieData = :
+2017-07-10 01:03:58 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:141]  - srcFlag:srcData = FILE:cruiseproduct.txt
+2017-07-10 01:03:59 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:43]  - 开始初始化类: com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest
+2017-07-10 01:03:59 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:48]  - 准备初始化驱动信息
+2017-07-10 01:07:05 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:104]  - 开始参数化 com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest
+2017-07-10 01:07:06 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:140]  - cookieFlag：cookieData = :
+2017-07-10 01:07:06 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:141]  - srcFlag:srcData = FILE:cruiseproduct.txt
+2017-07-10 01:07:06 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:43]  - 开始初始化类: com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest
+2017-07-10 01:07:06 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:48]  - 准备初始化驱动信息
+2017-07-10 01:11:40 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:50]  - 初始化驱动信息完毕
+2017-07-10 01:11:40 [15:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:85]  - 获取一个用于执行用例的驱动实例
+2017-07-10 01:11:40 [15:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:87]  - 获取到用于执行用例的驱动实例
+2017-07-10 01:11:40 [15:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:180]  - 测试用例为： M站boss3跟团下单
+2017-07-10 01:11:40 [15:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:181]  - 下单入参为: m.tuniu.com,210529703,2016-09-22,2,2,0
+2017-07-10 01:11:40 [15:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:41]  - 判断是否存在切换城市浮层
+2017-07-10 01:11:40 [15:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:49]  - 由于预订流程需要从首页进入，操作APP返回首页
+2017-07-10 01:11:40 [15:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:424]  - org.openqa.selenium.NoSuchSessionException: A session is either terminated or not started (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 9 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:48:19 -0700'
+System info: host: 'macdeMacBook-Pro.local', ip: '192.168.1.105', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.4', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.tuniu.app.ui, modelOfPhone=MX5, deviceScreenSize=1440x2560, networkConnectionEnabled=true, noReset=true, warnings={}, appWaitActivity=.homepage.LaunchActivity, databaseEnabled=false, brandOfPhone=魅族, deviceName=5b17d002, platform=LINUX, deviceUDID=5b17d002, appActivity=.homepage.LaunchActivity, desired={appActivity=.homepage.LaunchActivity, appPackage=com.tuniu.app.ui, modelOfPhone=MX5, noReset=true, newCommandTimeout=180, appWaitActivity=.homepage.LaunchActivity, udid=5b17d002, platformName=Android, brandOfPhone=魅族, deviceName=anyname}, newCommandTimeout=180, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=SM-N9108V, udid=5b17d002, platformName=Android, deviceManufacturer=samsung}]
+Session ID: fa939e3c-81ea-43ce-8eb8-de32950393da
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at io.appium.java_client.CommandExecutionHelper.execute(CommandExecutionHelper.java:27)
+	at io.appium.java_client.android.StartsActivity.currentActivity(StartsActivity.java:124)
+	at com.tuniu.olbb.common.AppUtil.getCurrentPage(AppUtil.java:134)
+	at com.tuniu.olbb.common.AppUtil.backToMainPage(AppUtil.java:72)
+	at com.tuniu.olbb.testcase.cruise.CruiseSampleOrder.saveOrder(CruiseSampleOrder.java:50)
+	at com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest.testTestCaseToursSaveOrder(TestCaseCruiseSaveOrderTest.java:190)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at java.util.concurrent.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1386)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+
+2017-07-10 01:11:40 [15:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:93]  - 用例执行完毕，释放使用的驱动实例
+2017-07-10 01:11:40 [15:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:95]  - 释放完成使用的驱动实例
+2017-07-10 01:11:40 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:66]  - 非全局运行测试用例，当前用例全部执行完毕，释放所有申请实例
+2017-07-10 01:16:27 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:104]  - 开始参数化 com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest
+2017-07-10 01:16:27 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:140]  - cookieFlag：cookieData = :
+2017-07-10 01:16:27 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:141]  - srcFlag:srcData = FILE:Product_TestCaseCruiseSaveOrderTest.txt
+2017-07-10 01:16:28 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:43]  - 开始初始化类: com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest
+2017-07-10 01:16:28 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:48]  - 准备初始化驱动信息
+2017-07-10 01:21:04 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:104]  - 开始参数化 com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest
+2017-07-10 01:21:04 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:140]  - cookieFlag：cookieData = :
+2017-07-10 01:21:04 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:141]  - srcFlag:srcData = FILE:Product_TestCaseCruiseSaveOrderTest.txt
+2017-07-10 01:21:05 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:43]  - 开始初始化类: com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest
+2017-07-10 01:21:05 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:48]  - 准备初始化驱动信息
+2017-07-10 01:23:28 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:104]  - 开始参数化 com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest
+2017-07-10 01:23:28 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:140]  - cookieFlag：cookieData = :
+2017-07-10 01:23:28 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:141]  - srcFlag:srcData = FILE:Product_TestCaseCruiseSaveOrderTest.txt
+2017-07-10 01:23:28 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:43]  - 开始初始化类: com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest
+2017-07-10 01:23:28 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:48]  - 准备初始化驱动信息
+2017-07-10 01:23:29 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:50]  - 初始化驱动信息完毕
+2017-07-10 01:23:29 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:53]  - 驱动初始化后，没有有效驱动实例，请检查配置文件维护的手机节点是否有效
+2017-07-10 01:23:29 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:66]  - 非全局运行测试用例，当前用例全部执行完毕，释放所有申请实例
+2017-07-10 01:23:29 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:72]  - 清除运行实例: com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest
+2017-07-10 01:23:52 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:104]  - 开始参数化 com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest
+2017-07-10 01:23:52 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:140]  - cookieFlag：cookieData = :
+2017-07-10 01:23:52 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:141]  - srcFlag:srcData = FILE:Product_TestCaseCruiseSaveOrderTest.txt
+2017-07-10 01:23:53 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:43]  - 开始初始化类: com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest
+2017-07-10 01:23:53 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:48]  - 准备初始化驱动信息
+2017-07-10 01:23:54 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:50]  - 初始化驱动信息完毕
+2017-07-10 01:23:54 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:53]  - 驱动初始化后，没有有效驱动实例，请检查配置文件维护的手机节点是否有效
+2017-07-10 01:23:54 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:66]  - 非全局运行测试用例，当前用例全部执行完毕，释放所有申请实例
+2017-07-10 01:23:54 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:72]  - 清除运行实例: com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest
+2017-07-10 01:24:35 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:104]  - 开始参数化 com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest
+2017-07-10 01:24:35 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:140]  - cookieFlag：cookieData = :
+2017-07-10 01:24:35 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:141]  - srcFlag:srcData = FILE:Product_TestCaseCruiseSaveOrderTest.txt
+2017-07-10 01:24:35 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:43]  - 开始初始化类: com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest
+2017-07-10 01:24:35 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:48]  - 准备初始化驱动信息
+2017-07-10 01:24:53 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:50]  - 初始化驱动信息完毕
+2017-07-10 01:24:53 [14:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:85]  - 获取一个用于执行用例的驱动实例
+2017-07-10 01:24:53 [14:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:87]  - 获取到用于执行用例的驱动实例
+2017-07-10 01:24:53 [14:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:180]  - 测试用例为： M站boss3跟团下单
+2017-07-10 01:24:53 [14:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:181]  - 下单入参为: m.tuniu.com,210529703,2016-09-22,2,2,0
+2017-07-10 01:24:53 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:41]  - 判断是否存在切换城市浮层
+2017-07-10 01:24:56 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:49]  - 由于预订流程需要从首页进入，操作APP返回首页
+2017-07-10 01:24:56 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:54]  - 从APP首页访问产品，通过搜索框输入产品id访问产品详情
+2017-07-10 01:25:06 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:68]  - 开始打开产品详情页
+2017-07-10 01:25:11 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:78]  - 开始访问价格日历页面
+2017-07-10 01:25:13 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:87]  - 开始选择出游团期，目前团期都是随机选择，没有根据指定参数选择
+2017-07-10 01:25:13 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:109]  - 选择出游人数
+2017-07-10 01:25:14 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:424]  - org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 449 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:48:19 -0700'
+System info: host: 'macdeMacBook-Pro.local', ip: '192.168.1.105', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.4', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.tuniu.app.ui, modelOfPhone=MX5, deviceScreenSize=1440x2560, networkConnectionEnabled=true, noReset=true, warnings={}, appWaitActivity=.homepage.LaunchActivity, databaseEnabled=false, brandOfPhone=魅族, deviceName=5b17d002, platform=LINUX, deviceUDID=5b17d002, appActivity=.homepage.LaunchActivity, desired={appActivity=.homepage.LaunchActivity, appPackage=com.tuniu.app.ui, modelOfPhone=MX5, noReset=true, newCommandTimeout=180, appWaitActivity=.homepage.LaunchActivity, udid=5b17d002, platformName=Android, brandOfPhone=魅族, deviceName=anyname}, newCommandTimeout=180, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=SM-N9108V, udid=5b17d002, platformName=Android, deviceManufacturer=samsung}]
+Session ID: 2424da93-97bf-4b8d-b224-1081813c568b
+*** Element info: {Using=id, value=com.tuniu.productdetail:id/tv_number_content}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:177)
+	at io.appium.java_client.DefaultGenericMobileElement.findElement(DefaultGenericMobileElement.java:65)
+	at io.appium.java_client.MobileElement.findElement(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.findElement(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.findElementById(RemoteWebElement.java:210)
+	at io.appium.java_client.DefaultGenericMobileElement.findElementById(DefaultGenericMobileElement.java:73)
+	at io.appium.java_client.MobileElement.findElementById(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.findElementById(AndroidElement.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:173)
+	at io.appium.java_client.DefaultGenericMobileElement.findElement(DefaultGenericMobileElement.java:61)
+	at io.appium.java_client.MobileElement.findElement(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.findElement(AndroidElement.java:1)
+	at com.tuniu.olbb.product.cruise.PageProductCalendar.selectChild(PageProductCalendar.java:123)
+	at com.tuniu.olbb.testcase.cruise.CruiseSampleOrder.saveOrder(CruiseSampleOrder.java:111)
+	at com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest.testTestCaseToursSaveOrder(TestCaseCruiseSaveOrderTest.java:190)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at java.util.concurrent.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1386)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+
+2017-07-10 01:25:18 [14:com.tuniu.olbb.common.ScreenShot:25]  - save screenshot ,Path: /Users/mac/IdeaProjects/autotest/MobCenterQA/Appium/Autotest_UI_Android_APP/screenshot/20170710_012514.jpg
+2017-07-10 01:25:18 [14:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:93]  - 用例执行完毕，释放使用的驱动实例
+2017-07-10 01:25:18 [14:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:95]  - 释放完成使用的驱动实例
+2017-07-10 01:25:18 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:66]  - 非全局运行测试用例，当前用例全部执行完毕，释放所有申请实例
+2017-07-10 01:25:23 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:72]  - 清除运行实例: com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest
+2017-07-10 01:27:39 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:104]  - 开始参数化 com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest
+2017-07-10 01:27:39 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:140]  - cookieFlag：cookieData = :
+2017-07-10 01:27:39 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:141]  - srcFlag:srcData = FILE:Product_TestCaseCruiseSaveOrderTest.txt
+2017-07-10 01:27:39 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:43]  - 开始初始化类: com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest
+2017-07-10 01:27:39 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:48]  - 准备初始化驱动信息
+2017-07-10 01:27:54 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:50]  - 初始化驱动信息完毕
+2017-07-10 01:27:54 [14:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:85]  - 获取一个用于执行用例的驱动实例
+2017-07-10 01:27:54 [14:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:87]  - 获取到用于执行用例的驱动实例
+2017-07-10 01:27:54 [14:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:180]  - 测试用例为： M站boss3跟团下单
+2017-07-10 01:27:54 [14:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:181]  - 下单入参为: m.tuniu.com,210529703,2016-09-22,2,2,0
+2017-07-10 01:27:54 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:41]  - 判断是否存在切换城市浮层
+2017-07-10 01:27:58 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:49]  - 由于预订流程需要从首页进入，操作APP返回首页
+2017-07-10 01:27:59 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:54]  - 从APP首页访问产品，通过搜索框输入产品id访问产品详情
+2017-07-10 01:28:08 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:68]  - 开始打开产品详情页
+2017-07-10 01:28:14 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:78]  - 开始访问价格日历页面
+2017-07-10 01:28:16 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:87]  - 开始选择出游团期，目前团期都是随机选择，没有根据指定参数选择
+2017-07-10 01:28:16 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:109]  - 选择出游人数
+2017-07-10 01:28:23 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:123]  - 判断是否有重单
+2017-07-10 01:28:23 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:130]  - 进入1/2页面,判断页面是否加载出来
+2017-07-10 01:28:24 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:140]  - 判断下一步按钮是否可点击
+2017-07-10 01:28:24 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:166]  - 选择邮轮
+2017-07-10 01:28:24 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:167]  - 邮轮资源不一定正好展示在页面，先点击下一步按钮，将邮轮资源呈现出来
+2017-07-10 01:28:24 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:424]  - java.lang.IllegalArgumentException: bound must be positive
+	at java.util.Random.nextInt(Random.java:388)
+	at com.tuniu.olbb.product.cruise.model.CruiseRoomModel.seletCruiseRoomRandom(CruiseRoomModel.java:68)
+	at com.tuniu.olbb.testcase.cruise.CruiseSampleOrder.saveOrder(CruiseSampleOrder.java:169)
+	at com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest.testTestCaseToursSaveOrder(TestCaseCruiseSaveOrderTest.java:190)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at java.util.concurrent.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1386)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+
+2017-07-10 01:28:28 [14:com.tuniu.olbb.common.ScreenShot:25]  - save screenshot ,Path: /Users/mac/IdeaProjects/autotest/MobCenterQA/Appium/Autotest_UI_Android_APP/screenshot/20170710_012824.jpg
+2017-07-10 01:28:28 [14:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:93]  - 用例执行完毕，释放使用的驱动实例
+2017-07-10 01:28:28 [14:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:95]  - 释放完成使用的驱动实例
+2017-07-10 01:28:28 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:66]  - 非全局运行测试用例，当前用例全部执行完毕，释放所有申请实例
+2017-07-10 01:28:33 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:72]  - 清除运行实例: com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest
+2017-07-10 01:31:05 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:104]  - 开始参数化 com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest
+2017-07-10 01:31:05 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:140]  - cookieFlag：cookieData = :
+2017-07-10 01:31:05 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:141]  - srcFlag:srcData = FILE:Product_TestCaseCruiseSaveOrderTest.txt
+2017-07-10 01:31:06 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:43]  - 开始初始化类: com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest
+2017-07-10 01:31:06 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:48]  - 准备初始化驱动信息
+2017-07-10 01:31:21 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:50]  - 初始化驱动信息完毕
+2017-07-10 01:31:21 [14:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:85]  - 获取一个用于执行用例的驱动实例
+2017-07-10 01:31:21 [14:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:87]  - 获取到用于执行用例的驱动实例
+2017-07-10 01:31:21 [14:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:180]  - 测试用例为： M站boss3跟团下单
+2017-07-10 01:31:21 [14:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:181]  - 下单入参为: m.tuniu.com,210529703,2016-09-22,2,2,0
+2017-07-10 01:31:21 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:41]  - 判断是否存在切换城市浮层
+2017-07-10 01:31:25 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:49]  - 由于预订流程需要从首页进入，操作APP返回首页
+2017-07-10 01:31:26 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:54]  - 从APP首页访问产品，通过搜索框输入产品id访问产品详情
+2017-07-10 01:31:35 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:68]  - 开始打开产品详情页
+2017-07-10 01:31:41 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:78]  - 开始访问价格日历页面
+2017-07-10 01:31:42 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:87]  - 开始选择出游团期，目前团期都是随机选择，没有根据指定参数选择
+2017-07-10 01:31:42 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:109]  - 选择出游人数
+2017-07-10 01:31:48 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:123]  - 判断是否有重单
+2017-07-10 01:31:48 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:130]  - 进入1/2页面,判断页面是否加载出来
+2017-07-10 01:31:49 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:140]  - 判断下一步按钮是否可点击
+2017-07-10 01:31:49 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:166]  - 选择邮轮
+2017-07-10 01:31:49 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:167]  - 邮轮资源不一定正好展示在页面，先点击下一步按钮，将邮轮资源呈现出来
+2017-07-10 01:31:55 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:173]  - 点击1/2下一步按钮
+2017-07-10 01:31:56 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:425]  - org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 514 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:48:19 -0700'
+System info: host: 'macdeMacBook-Pro.local', ip: '192.168.1.105', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.4', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.tuniu.app.ui, modelOfPhone=MX5, deviceScreenSize=1440x2560, networkConnectionEnabled=true, noReset=true, warnings={}, appWaitActivity=.homepage.LaunchActivity, databaseEnabled=false, brandOfPhone=魅族, deviceName=5b17d002, platform=LINUX, deviceUDID=5b17d002, appActivity=.homepage.LaunchActivity, desired={appActivity=.homepage.LaunchActivity, appPackage=com.tuniu.app.ui, modelOfPhone=MX5, noReset=true, newCommandTimeout=180, appWaitActivity=.homepage.LaunchActivity, udid=5b17d002, platformName=Android, brandOfPhone=魅族, deviceName=anyname}, newCommandTimeout=180, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=SM-N9108V, udid=5b17d002, platformName=Android, deviceManufacturer=samsung}]
+Session ID: d0f8f911-ec4d-4285-ba0d-c4e0a5ac8b3a
+*** Element info: {Using=id, value=com.tuniu.app.ui:id/btn_submit}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:417)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:70)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.tuniu.olbb.product.cruise.PageProductStepOne.clickNextStepBtn(PageProductStepOne.java:32)
+	at com.tuniu.olbb.product.cruise.PageProductStepOne.clickNextPageElement(PageProductStepOne.java:39)
+	at com.tuniu.olbb.testcase.cruise.CruiseSampleOrder.saveOrder(CruiseSampleOrder.java:174)
+	at com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest.testTestCaseToursSaveOrder(TestCaseCruiseSaveOrderTest.java:190)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at java.util.concurrent.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1386)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+
+2017-07-10 01:31:59 [14:com.tuniu.olbb.common.ScreenShot:25]  - save screenshot ,Path: /Users/mac/IdeaProjects/autotest/MobCenterQA/Appium/Autotest_UI_Android_APP/screenshot/20170710_013156.jpg
+2017-07-10 01:31:59 [14:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:93]  - 用例执行完毕，释放使用的驱动实例
+2017-07-10 01:31:59 [14:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:95]  - 释放完成使用的驱动实例
+2017-07-10 01:31:59 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:66]  - 非全局运行测试用例，当前用例全部执行完毕，释放所有申请实例
+2017-07-10 01:32:04 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:72]  - 清除运行实例: com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest
+2017-07-10 01:33:48 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:104]  - 开始参数化 com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest
+2017-07-10 01:33:48 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:140]  - cookieFlag：cookieData = :
+2017-07-10 01:33:48 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:141]  - srcFlag:srcData = FILE:Product_TestCaseCruiseSaveOrderTest.txt
+2017-07-10 01:33:48 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:43]  - 开始初始化类: com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest
+2017-07-10 01:33:48 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:48]  - 准备初始化驱动信息
+2017-07-10 01:34:05 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:50]  - 初始化驱动信息完毕
+2017-07-10 01:34:05 [12:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:85]  - 获取一个用于执行用例的驱动实例
+2017-07-10 01:34:05 [12:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:87]  - 获取到用于执行用例的驱动实例
+2017-07-10 01:34:05 [12:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:180]  - 测试用例为： M站boss3跟团下单
+2017-07-10 01:34:05 [12:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:181]  - 下单入参为: m.tuniu.com,210529703,2016-09-22,2,2,0
+2017-07-10 01:34:05 [12:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:41]  - 判断是否存在切换城市浮层
+2017-07-10 01:34:10 [12:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:49]  - 由于预订流程需要从首页进入，操作APP返回首页
+2017-07-10 01:34:10 [12:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:54]  - 从APP首页访问产品，通过搜索框输入产品id访问产品详情
+2017-07-10 01:34:20 [12:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:68]  - 开始打开产品详情页
+2017-07-10 01:34:26 [12:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:78]  - 开始访问价格日历页面
+2017-07-10 01:34:28 [12:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:87]  - 开始选择出游团期，目前团期都是随机选择，没有根据指定参数选择
+2017-07-10 01:34:28 [12:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:109]  - 选择出游人数
+2017-07-10 01:34:34 [12:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:123]  - 判断是否有重单
+2017-07-10 01:34:34 [12:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:130]  - 进入1/2页面,判断页面是否加载出来
+2017-07-10 01:34:35 [12:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:140]  - 判断下一步按钮是否可点击
+2017-07-10 01:34:35 [12:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:166]  - 选择邮轮
+2017-07-10 01:34:35 [12:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:167]  - 邮轮资源不一定正好展示在页面，先点击下一步按钮，将邮轮资源呈现出来
+2017-07-10 01:34:42 [12:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:173]  - 点击1/2下一步按钮
+2017-07-10 01:34:43 [12:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:179]  - 1/2点击下一步后，再次判断是否有机票模块验仓验价浮层
+2017-07-10 01:34:43 [12:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:193]  - 判断当前页面是否为2/2页面
+2017-07-10 01:34:43 [12:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:201]  - 判断是否存在弹窗
+2017-07-10 01:34:45 [12:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:193]  - 判断当前页面是否为2/2页面
+2017-07-10 01:34:45 [12:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:201]  - 判断是否存在弹窗
+2017-07-10 01:34:48 [12:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:193]  - 判断当前页面是否为2/2页面
+2017-07-10 01:34:48 [12:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:201]  - 判断是否存在弹窗
+2017-07-10 01:34:50 [12:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:193]  - 判断当前页面是否为2/2页面
+2017-07-10 01:34:51 [12:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:201]  - 判断是否存在弹窗
+2017-07-10 01:34:53 [12:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:193]  - 判断当前页面是否为2/2页面
+2017-07-10 01:34:53 [12:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:201]  - 判断是否存在弹窗
+2017-07-10 01:34:56 [12:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:193]  - 判断当前页面是否为2/2页面
+2017-07-10 01:34:56 [12:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:201]  - 判断是否存在弹窗
+2017-07-10 01:34:58 [12:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:193]  - 判断当前页面是否为2/2页面
+2017-07-10 01:34:58 [12:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:201]  - 判断是否存在弹窗
+2017-07-10 01:35:01 [12:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:193]  - 判断当前页面是否为2/2页面
+2017-07-10 01:35:01 [12:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:201]  - 判断是否存在弹窗
+2017-07-10 01:35:04 [12:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:193]  - 判断当前页面是否为2/2页面
+2017-07-10 01:35:04 [12:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:201]  - 判断是否存在弹窗
+2017-07-10 01:35:06 [12:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:193]  - 判断当前页面是否为2/2页面
+2017-07-10 01:35:06 [12:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:201]  - 判断是否存在弹窗
+2017-07-10 01:35:09 [12:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:193]  - 判断当前页面是否为2/2页面
+2017-07-10 01:35:09 [12:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:201]  - 判断是否存在弹窗
+2017-07-10 01:35:11 [12:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:193]  - 判断当前页面是否为2/2页面
+2017-07-10 01:35:11 [12:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:201]  - 判断是否存在弹窗
+2017-07-10 01:35:13 [12:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:193]  - 判断当前页面是否为2/2页面
+2017-07-10 01:35:14 [12:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:201]  - 判断是否存在弹窗
+2017-07-10 01:35:16 [12:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:193]  - 判断当前页面是否为2/2页面
+2017-07-10 01:35:16 [12:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:201]  - 判断是否存在弹窗
+2017-07-10 01:35:18 [12:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:193]  - 判断当前页面是否为2/2页面
+2017-07-10 01:35:18 [12:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:201]  - 判断是否存在弹窗
+2017-07-10 01:35:20 [12:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:185]  - 1/2页面循环多次，仍然没有进入2/2页面，也没有判断到有弹窗
+2017-07-10 01:35:25 [12:com.tuniu.olbb.common.ScreenShot:25]  - save screenshot ,Path: /Users/mac/IdeaProjects/autotest/MobCenterQA/Appium/Autotest_UI_Android_APP/screenshot/20170710_013520.jpg
+2017-07-10 01:35:25 [12:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:93]  - 用例执行完毕，释放使用的驱动实例
+2017-07-10 01:35:25 [12:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:95]  - 释放完成使用的驱动实例
+2017-07-10 01:35:25 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:66]  - 非全局运行测试用例，当前用例全部执行完毕，释放所有申请实例
+2017-07-10 01:35:30 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:72]  - 清除运行实例: com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest
+2017-07-10 01:37:31 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:104]  - 开始参数化 com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest
+2017-07-10 01:37:31 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:140]  - cookieFlag：cookieData = :
+2017-07-10 01:37:31 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:141]  - srcFlag:srcData = FILE:Product_TestCaseCruiseSaveOrderTest.txt
+2017-07-10 01:37:32 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:43]  - 开始初始化类: com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest
+2017-07-10 01:37:32 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:48]  - 准备初始化驱动信息
+2017-07-10 01:37:49 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:50]  - 初始化驱动信息完毕
+2017-07-10 01:37:49 [14:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:85]  - 获取一个用于执行用例的驱动实例
+2017-07-10 01:37:49 [14:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:87]  - 获取到用于执行用例的驱动实例
+2017-07-10 01:37:49 [14:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:180]  - 测试用例为： M站boss3跟团下单
+2017-07-10 01:37:49 [14:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:181]  - 下单入参为: m.tuniu.com,210529703,2016-09-22,2,2,0
+2017-07-10 01:37:49 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:41]  - 判断是否存在切换城市浮层
+2017-07-10 01:37:52 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:49]  - 由于预订流程需要从首页进入，操作APP返回首页
+2017-07-10 01:37:54 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:54]  - 从APP首页访问产品，通过搜索框输入产品id访问产品详情
+2017-07-10 01:38:03 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:68]  - 开始打开产品详情页
+2017-07-10 01:38:08 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:78]  - 开始访问价格日历页面
+2017-07-10 01:38:10 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:87]  - 开始选择出游团期，目前团期都是随机选择，没有根据指定参数选择
+2017-07-10 01:38:10 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:109]  - 选择出游人数
+2017-07-10 01:38:16 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:123]  - 判断是否有重单
+2017-07-10 01:38:16 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:130]  - 进入1/2页面,判断页面是否加载出来
+2017-07-10 01:38:16 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:140]  - 判断下一步按钮是否可点击
+2017-07-10 01:38:17 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:166]  - 选择邮轮
+2017-07-10 01:38:17 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:167]  - 邮轮资源不一定正好展示在页面，先点击下一步按钮，将邮轮资源呈现出来
+2017-07-10 01:38:24 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:173]  - 重新等待页面加载完毕
+2017-07-10 01:38:25 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:175]  - 点击1/2下一步按钮
+2017-07-10 01:38:26 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:181]  - 1/2点击下一步后，再次判断是否有机票模块验仓验价浮层
+2017-07-10 01:38:26 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:195]  - 判断当前页面是否为2/2页面
+2017-07-10 01:38:26 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:203]  - 判断是否存在弹窗
+2017-07-10 01:38:28 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:195]  - 判断当前页面是否为2/2页面
+2017-07-10 01:38:28 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:203]  - 判断是否存在弹窗
+2017-07-10 01:38:30 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:195]  - 判断当前页面是否为2/2页面
+2017-07-10 01:38:31 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:203]  - 判断是否存在弹窗
+2017-07-10 01:38:33 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:195]  - 判断当前页面是否为2/2页面
+2017-07-10 01:38:33 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:203]  - 判断是否存在弹窗
+2017-07-10 01:38:35 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:195]  - 判断当前页面是否为2/2页面
+2017-07-10 01:38:35 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:203]  - 判断是否存在弹窗
+2017-07-10 01:38:38 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:195]  - 判断当前页面是否为2/2页面
+2017-07-10 01:38:38 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:203]  - 判断是否存在弹窗
+2017-07-10 01:38:40 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:195]  - 判断当前页面是否为2/2页面
+2017-07-10 01:38:41 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:203]  - 判断是否存在弹窗
+2017-07-10 01:38:43 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:195]  - 判断当前页面是否为2/2页面
+2017-07-10 01:38:43 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:203]  - 判断是否存在弹窗
+2017-07-10 01:38:45 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:195]  - 判断当前页面是否为2/2页面
+2017-07-10 01:38:45 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:203]  - 判断是否存在弹窗
+2017-07-10 01:38:47 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:195]  - 判断当前页面是否为2/2页面
+2017-07-10 01:38:48 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:203]  - 判断是否存在弹窗
+2017-07-10 01:38:50 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:195]  - 判断当前页面是否为2/2页面
+2017-07-10 01:38:50 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:203]  - 判断是否存在弹窗
+2017-07-10 01:38:53 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:195]  - 判断当前页面是否为2/2页面
+2017-07-10 01:38:53 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:203]  - 判断是否存在弹窗
+2017-07-10 01:38:55 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:195]  - 判断当前页面是否为2/2页面
+2017-07-10 01:38:56 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:203]  - 判断是否存在弹窗
+2017-07-10 01:38:58 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:195]  - 判断当前页面是否为2/2页面
+2017-07-10 01:38:58 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:203]  - 判断是否存在弹窗
+2017-07-10 01:39:01 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:195]  - 判断当前页面是否为2/2页面
+2017-07-10 01:39:01 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:203]  - 判断是否存在弹窗
+2017-07-10 01:39:03 [14:com.tuniu.olbb.testcase.cruise.CruiseSampleOrder:187]  - 1/2页面循环多次，仍然没有进入2/2页面，也没有判断到有弹窗
+2017-07-10 01:39:07 [14:com.tuniu.olbb.common.ScreenShot:25]  - save screenshot ,Path: /Users/mac/IdeaProjects/autotest/MobCenterQA/Appium/Autotest_UI_Android_APP/screenshot/20170710_013903.jpg
+2017-07-10 01:39:07 [14:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:93]  - 用例执行完毕，释放使用的驱动实例
+2017-07-10 01:39:07 [14:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:95]  - 释放完成使用的驱动实例
+2017-07-10 01:39:07 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:66]  - 非全局运行测试用例，当前用例全部执行完毕，释放所有申请实例
+2017-07-10 01:39:11 [:com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest:72]  - 清除运行实例: com.tuniu.olbb.junit.cruise.TestCaseCruiseSaveOrderTest

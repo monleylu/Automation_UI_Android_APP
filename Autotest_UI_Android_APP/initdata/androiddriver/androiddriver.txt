@@ -1,0 +1,1 @@
+{"id":0,"ip":"127.0.0.1","port":"4723","newCommandTimeout":"180","udid":"5b17d002","deviceName":"anyname","platformName":"Android","appActivity":".homepage.LaunchActivity","appWaitActivity":".homepage.LaunchActivity","appPackage":"com.monleylu.app.ui","noReset":"true","brandOfPhone":"魅族","modelOfPhone":"MX5"}
