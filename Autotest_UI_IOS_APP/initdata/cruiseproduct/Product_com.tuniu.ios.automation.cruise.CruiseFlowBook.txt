@@ -1,0 +1,1 @@
+{"testCase":{"ID":37,"testCaseName":"邮轮测试产品","testCaseDescription":"邮轮测试产品"},"productBookInformation":{"HostUrl":"www.monleylu.com","ProductID":"210488340","AdultNum":2,"ChildNum":1,"ChildFreedNum":1,"BuyDate":"","productType":12,"productTypeName":"邮轮","productMode":15,"productModeName":"火车票+邮轮"}}

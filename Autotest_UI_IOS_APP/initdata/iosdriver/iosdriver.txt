@@ -1,0 +1,1 @@
+{"id":0,"ip":"127.0.0.1","port":"4723","udid":"8e7d0ac6722547dc7061ca028fd3f5e4c1031336","platformName":"iOS","platformVersion":"9.3","bundleId":"com.monleylu.app","automationName":"XCuiTest","newCommandTimeout":"300","browserName":"","deviceName":"iPhone 6","LAUNCH_TIMEOUT":"60000","noReset":"true","brandOfPhone":"魅族","modelOfPhone":"MX5"}
