@@ -1,0 +1,2 @@
+{"id":0,"ip":"172.31.0.84","port":"4723","newCommandTimeout":"180","udid":"85GBBMK222RU","deviceName":"anyname","platformName":"Android","browserName":"Chrome","brandOfPhone":"魅族","modelOfPhone":"MX5"}
+{"id":0,"ip":"172.31.2.22","port":"4723","newCommandTimeout":"180","udid":"9SPRTKKRQWU47PDA","deviceName":"anyname","platformName":"Android","browserName":"Chrome","brandOfPhone":"小米","modelOfPhone":"Redmi Note 3"}

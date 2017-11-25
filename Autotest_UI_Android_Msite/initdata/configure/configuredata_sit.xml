@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	cookie元素
+	    cookieFlag:数据源，代表从哪里取数据，参数有，DB：从数据取数据，FILE：从文件读取数据
+	    cookieData：当数据源为DB时，填写测试用例ID，唯一标识ID，，当数据源为FILE时，填写文件名称，测试用例会从这个文件读取数据
+	src元素：
+	    srcFlag:数据源，代表从哪里取数据，参数有，DB：从数据取数据，FILE：从文件读取数据
+	    srcData：当数据源为DB时，填写测试用例ID，唯一标识ID，如果有多个，依次填写为1,2,3即可，当数据源为FILE时，填写文件名称，测试用例会从这个文件读取数据
+-->
+<data>
+	<!-- 
+		测试数据场景：
+			跟团、跟队自驾、常规自驾打包售卖形式产品下单功能，需要先登录，cookies必须
+		-->
+	<datameta id="com.test.testcase.product.tours.ToursSaveOrderParameter">
+		<cookie>
+			<cookieFlag>DB</cookieFlag>
+			<cookieData>6</cookieData>
+		</cookie>
+		<src>
+			<srcFlag>DB</srcFlag>
+			<srcData>5,8,9</srcData>
+		</src>
+	</datameta>
+	
+	<!-- 
+		测试数据场景：
+			常规自驾酒店门票售卖形式产品下单，需要先登录，cookies必须
+		-->
+	<datameta id="com.test.testcase.product.drive.DriveSaveOrderParameter">
+		<cookie>
+			<cookieFlag>DB</cookieFlag>
+			<cookieData>6</cookieData>
+		</cookie>
+		<src>
+			<srcFlag>DB</srcFlag>
+			<srcData>6</srcData>
+		</src>
+	</datameta>
+	
+	<!-- 
+		测试数据场景：
+			自助类产品下单测试，需要先登录，cookies必须
+		-->
+	<datameta id="com.test.testcase.diy.DiySaveOrderParameter">
+		<cookie>
+			<cookieFlag>DB</cookieFlag>
+			<cookieData>6</cookieData>
+		</cookie>
+		<src>
+			<srcFlag>DB</srcFlag>
+			<srcData>7</srcData>
+		</src>
+	</datameta>
+	
+	<!-- 
+		测试数据场景：
+			cookies注入登录测试
+		-->
+	<datameta id="com.test.login.UserLoginByCookies">
+		<cookie>
+			<cookieFlag>DB</cookieFlag>
+			<cookieData>6</cookieData>
+		</cookie>
+	</datameta>	
+	
+	<!-- 
+		测试数据场景：
+			退出登录测试,一般保持和上面cookies登录的内容一致
+		-->
+	<datameta id="com.test.login.LogoutTest">
+		<cookie>
+			<cookieFlag>DB</cookieFlag>
+			<cookieData>6</cookieData>
+		</cookie>
+	</datameta>	
+		
+	<!-- 
+		测试数据场景：
+			跟团生僻字校验功能
+		-->
+	<datameta id="com.test.testcase.product.tours.ToursUncommonUserNameTest">
+		<cookie>
+			<cookieFlag>DB</cookieFlag>
+			<cookieData>6</cookieData>
+		</cookie>
+		<src>
+			<srcFlag>DB</srcFlag>
+			<srcData>10</srcData>
+		</src>
+	</datameta>	
+	
+		<!-- 
+		测试数据场景：
+			自助生僻字校验功能
+		-->
+	<datameta id="com.test.testcase.product.diy.DiyUncommonUserNameTest">
+		<cookie>
+			<cookieFlag>DB</cookieFlag>
+			<cookieData>6</cookieData>
+		</cookie>
+		<src>
+			<srcFlag>DB</srcFlag>
+			<srcData>11</srcData>
+		</src>
+	</datameta>	
+	
+		<!-- 
+		测试数据场景：
+			跟团预订流程登录验证
+		-->
+	<datameta id="com.test.testcase.product.tours.ToursLoginOnStepTwoTest">
+		<cookie>
+			<cookieFlag>DB</cookieFlag>
+			<cookieData>6</cookieData>
+		</cookie>
+		<src>
+			<srcFlag>DB</srcFlag>
+			<srcData>12</srcData>
+		</src>
+	</datameta>		
+	
+		<!-- 
+		测试数据场景：
+			常规自驾酒店门票采购方式预订流程登录验证
+		-->
+	<datameta id="com.test.testcase.product.drive.DriveLoginOnStepTwoTest">
+		<cookie>
+			<cookieFlag>DB</cookieFlag>
+			<cookieData>6</cookieData>
+		</cookie>
+		<src>
+			<srcFlag>DB</srcFlag>
+			<srcData>13</srcData>
+		</src>
+	</datameta>	
+	
+		<!-- 
+		测试数据场景：
+			自助预订流程登录验证
+		-->
+	<datameta id="com.test.testcase.product.diy.DiyLoginOnStepTwoTest">
+		<cookie>
+			<cookieFlag>DB</cookieFlag>
+			<cookieData>6</cookieData>
+		</cookie>
+		<src>
+			<srcFlag>DB</srcFlag>
+			<srcData>7</srcData>
+		</src>
+	</datameta>		
+		<!-- 
+		测试数据场景：
+			订单详情页     检查发票及物流进度
+		-->
+	<datameta id="com.test.testcase.orderdetail.CheckInvoiceProgressTest">
+		<cookie>
+			<cookieFlag>DB</cookieFlag>
+			<cookieData>6</cookieData>
+		</cookie>
+		<src>
+			<srcFlag>FILE</srcFlag>
+			<srcData>orderpageInvoice.txt</srcData>
+		</src>
+	</datameta>
+	<!-- 
+		测试数据场景：
+			预定流程更改国内机票
+		-->
+	<datameta id="com.test.testcase.product.tours.ToursChangeSingleFlightTest">
+		<cookie>
+			<cookieFlag>DB</cookieFlag>
+			<cookieData>6</cookieData>
+		</cookie>
+		<src>
+			<srcFlag>DB</srcFlag>
+			<srcData>31</srcData>
+		</src>
+	</datameta>
+	<!-- 
+		测试数据场景：
+			跟团预定流程点击返赠品添加地址登录并选择返赠品优惠下单
+		-->
+	<datameta id="com.test.testcase.product.tours.ToursFreeGiftPromationTest">
+		<cookie>
+			<cookieFlag>DB</cookieFlag>
+			<cookieData>6</cookieData>
+		</cookie>
+		<src>
+			<srcFlag>DB</srcFlag>
+			<srcData>33</srcData>
+		</src>
+	</datameta>
+	<!-- 
+		测试数据场景：
+			自助预定流程点击返赠品添加地址登录并选择返赠品优惠下单
+		-->
+	<datameta id="com.test.testcase.product.diy.DiyFreeGiftPromationTest">
+		<cookie>
+			<cookieFlag>DB</cookieFlag>
+			<cookieData>6</cookieData>
+		</cookie>
+		<src>
+			<srcFlag>DB</srcFlag>
+			<srcData>34</srcData>
+		</src>
+	</datameta>
+	<!-- 
+		测试数据场景：
+			自驾预定流程选择返赠品优惠下单
+		-->
+	<datameta id="com.test.testcase.product.diy.DiyFreeGiftPromationTest">
+		<cookie>
+			<cookieFlag>DB</cookieFlag>
+			<cookieData>6</cookieData>
+		</cookie>
+		<src>
+			<srcFlag>DB</srcFlag>
+			<srcData>35</srcData>
+		</src>
+	</datameta>
+	<!-- 
+		测试数据场景：
+			预定流程更改火车票
+		-->
+	<datameta id="com.test.testcase.product.tours.ToursChangeTrainTest">
+		<cookie>
+			<cookieFlag>DB</cookieFlag>
+			<cookieData>6</cookieData>
+		</cookie>
+		<src>
+			<srcFlag>DB</srcFlag>
+			<srcData>36</srcData>
+		</src>
+	</datameta>
+	<!-- 
+		测试数据场景：
+			订单详情页     检查退款进度
+		-->
+	<datameta id="com.test.testcase.orderdetail.CheckRefundProgressTest">
+		<cookie>
+			<cookieFlag>DB</cookieFlag>
+			<cookieData>6</cookieData>
+		</cookie>
+		<src>
+			<srcFlag>FILE</srcFlag>
+			<srcData>orderpageRefund.txt</srcData>
+		</src>
+	</datameta>
+	<!-- 
+		测试数据场景：
+			团队游样品下单
+		-->
+	<datameta id="com.test.testcase.product.team.TeamCustomSaveOrderTest">
+		<cookie>
+			<cookieFlag>DB</cookieFlag>
+			<cookieData>6</cookieData>
+		</cookie>
+		<src>
+			<srcFlag>DB</srcFlag>
+			<srcData>39</srcData>
+		</src>
+	</datameta>
+	<!-- 
+		测试数据场景：
+			团队游需求表单家庭出游下单
+		-->
+	<datameta id="com.test.testcase.product.team.TeamFamilySaveOrderTest">
+		<cookie>
+			<cookieFlag>DB</cookieFlag>
+			<cookieData>6</cookieData>
+		</cookie>
+		<src>
+			<srcFlag>DB</srcFlag>
+			<srcData>40</srcData>
+		</src>
+	</datameta>
+	<!-- 
+		测试数据场景：
+			团队游需求表单公司出游下单
+		-->
+	<datameta id="com.test.testcase.product.team.TeamCompanySaveOrderTest">
+		<cookie>
+			<cookieFlag>DB</cookieFlag>
+			<cookieData>6</cookieData>
+		</cookie>
+		<src>
+			<srcFlag>DB</srcFlag>
+			<srcData>41</srcData>
+		</src>
+	</datameta>
+</data>
